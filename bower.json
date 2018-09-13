@@ -1,0 +1,27 @@
+{
+  "name": "starting template",
+  "description": "Starting template",
+  "main": "gulpfile.js",
+  "authors": [
+    "5tka"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "https://github.com/jquery/jquery-dist.git#^3.3.1",
+    "bPopup": "https://github.com/dinbror/bpopup.git#^0.11.0",
+    "normalize-css": "latest",
+    "animate.css": "^3.5.2",
+    "wow": "wowjs#^1.1.2",
+    "css-hamburgers": "https://github.com/jonsuh/hamburgers.git#^0.9.3"
+  },
+  "devDependencies": {
+    "bxslider-4": "^4.2.5",
+    "jquery-mousewheel": "^3.1.13"
+  }
+}

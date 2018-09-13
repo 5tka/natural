@@ -1,0 +1,67 @@
+section.scroll-s.header#main
+    .header__top-line   
+        .container
+            .header__top-wrap
+                .header__logo
+                    a(href="#main")
+                        img(src="img/logo.png", alt="")
+                .header__nav-wrap
+                    ul.mnu-list
+                        li.mnu-item
+                             a(href="#main").menu-link Главная
+                        li.mnu-item
+                            a(href="#about").menu-link О нас
+                        li.mnu-item
+                            a(href="#product").menu-link Продукт
+                        li.mnu-item
+                            a(href="#service").menu-link Наши услуги
+                        li.mnu-item
+                            a(href="#feedbacks").menu-link Отзывы
+                        li.mnu-item
+                            a(href="#contacts").menu-link Контакты
+                        li.mnu-item.mnu-item-trigger
+                            a.mnu-link-dd(href="#") Ру
+                            ul.mnu-list-dd
+                                a.mnu-link-dd(href="#") Eng
+                                a.mnu-link-dd(href="#") Укр
+                .header__mnu-trigger
+                    button.hamburger.hamburger--slider.j_burger(type='button')
+                        span.hamburger-box
+                            span.hamburger-inner
+                .header__mnu-hidden
+                    button.hamburger.hamburger--slider.j_burger(type='button').is-active
+                        span.hamburger-box
+                            span.hamburger-inne
+                    ul.hidden-list-ul
+                        li
+                            a(href="#") Новости
+                        li
+                            a(href="#") Статьи
+                        li.hidden-item
+                             a(href="#main") Главная
+                        li.hidden-item
+                            a(href="#about") О нас
+                        li.hidden-item
+                            a(href="#product") Продукт
+                        li.hidden-item
+                            a(href="#service") Наши услуги
+                        li.hidden-item
+                            a(href="#feedbacks") Отзывы
+                        li.hidden-item
+                            a(href="#contacts") Контакты
+        
+    .container
+        .header__intro-wrapper
+            .intro-text
+                h1.title-h1 NATURAL ADJUSTER
+                p.subtitle-h1.
+                    продукт современной информационно-волновой технологии <br>
+                    восстановления организма. <br>
+                    Почувствуй силу природы в уникальной капсуле!
+            .play-button
+                img.ply-img(src="img/play.png", alt="")(data-video="B7bqAsxee4I")
+            .scroll-down(data-scrl="#about")
+                img.scrl-img(src="img/arrow-down.png", alt="")
+            .company-prod
+                img(src="../img/logo2.png", alt="")
+                p Продукт компании «Ключевой ресурс»

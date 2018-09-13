@@ -1,0 +1,23 @@
+/*
+Hairline 100
+Thin 200
+Light 300
+Regular 400
+Medium 500
+Semibold 600
+Bold 700
+Heavy 800
+BLack 900
+*/
+@font-face {
+    font-family: HNCl; /* Имя шрифта */
+    src: url(fonts/HelveticaNeueCyr-Light.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: HNCb; /* Имя шрифта */
+    src: url(fonts/HelveticaNeueCyr-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: HNCm; /* Имя шрифта */
+    src: url(fonts/HelveticaNeueCyr-Medium.ttf); /* Путь к файлу со шрифтом */
+}
